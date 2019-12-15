@@ -5,8 +5,8 @@ import (
 
 	"go.mongodb.org/mongo-driver/bson/primitive"
 
-	"github.com/callummance/azunyan/db"
-	"github.com/callummance/azunyan/models"
+	"github.com/dennistsiang/azunyan/db"
+	"github.com/dennistsiang/azunyan/models"
 	// "gopkg.in/mgo.v2/bson"
 )
 

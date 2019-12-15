@@ -7,7 +7,7 @@ import (
 
 	"go.mongodb.org/mongo-driver/mongo/options"
 
-	"github.com/callummance/azunyan/models"
+	"github.com/dennistsiang/azunyan/models"
 	"github.com/globalsign/mgo/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 )

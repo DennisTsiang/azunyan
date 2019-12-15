@@ -5,8 +5,8 @@ import (
 
 	"net/http"
 
-	"github.com/callummance/azunyan/manager"
-	"github.com/callummance/azunyan/webserver/middlewares"
+	"github.com/dennistsiang/azunyan/manager"
+	"github.com/dennistsiang/azunyan/webserver/middlewares"
 	"github.com/gin-gonic/gin"
 )
 

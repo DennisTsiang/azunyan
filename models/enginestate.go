@@ -1,7 +1,7 @@
 package models
 
 import (
-	"github.com/callummance/azunyan/config"
+	"github.com/dennistsiang/azunyan/config"
 )
 
 //State contains data on the current state of the karaoke manager.

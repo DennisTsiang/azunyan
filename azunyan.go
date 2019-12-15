@@ -6,9 +6,9 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/callummance/azunyan/db"
-	"github.com/callummance/azunyan/manager"
-	"github.com/callummance/azunyan/webserver"
+	"github.com/dennistsiang/azunyan/db"
+	"github.com/dennistsiang/azunyan/manager"
+	"github.com/dennistsiang/azunyan/webserver"
 )
 
 const (

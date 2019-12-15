@@ -1,8 +1,8 @@
 package manager
 
 import (
-	"github.com/callummance/azunyan/db"
-	"github.com/callummance/azunyan/models"
+	"github.com/dennistsiang/azunyan/db"
+	"github.com/dennistsiang/azunyan/models"
 	broadcast "github.com/dustin/go-broadcast"
 )
 

@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/callummance/azunyan/manager"
+	"github.com/dennistsiang/azunyan/manager"
 	"github.com/gin-gonic/gin"
 )
 

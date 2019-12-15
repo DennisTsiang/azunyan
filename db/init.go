@@ -10,7 +10,7 @@ import (
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 
-	"github.com/callummance/azunyan/config"
+	"github.com/dennistsiang/azunyan/config"
 )
 
 // Karaoke Manager implements this interface

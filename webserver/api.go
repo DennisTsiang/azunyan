@@ -3,9 +3,9 @@ package webserver
 import (
 	"fmt"
 
-	"github.com/callummance/azunyan/db"
-	"github.com/callummance/azunyan/manager"
-	"github.com/callummance/azunyan/webserver/stream"
+	"github.com/dennistsiang/azunyan/db"
+	"github.com/dennistsiang/azunyan/manager"
+	"github.com/dennistsiang/azunyan/webserver/stream"
 	"github.com/gin-gonic/gin"
 )
 

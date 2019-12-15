@@ -50,5 +50,5 @@
   unused-packages = true
 
 [metadata.heroku]
-  root-package = "github.com/callummance/azunyan"
+  root-package = "github.com/dennistsiang/azunyan"
   install = [ "./..." ]

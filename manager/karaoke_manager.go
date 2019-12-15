@@ -4,8 +4,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/callummance/azunyan/config"
-	"github.com/callummance/azunyan/db"
+	"github.com/dennistsiang/azunyan/config"
+	"github.com/dennistsiang/azunyan/db"
 	broadcast "github.com/dustin/go-broadcast"
 
 	mgo "go.mongodb.org/mongo-driver/mongo"

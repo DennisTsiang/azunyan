@@ -1,8 +1,8 @@
 package webserver
 
 import (
-	"github.com/callummance/azunyan/db"
-	"github.com/callummance/azunyan/manager"
+	"github.com/dennistsiang/azunyan/db"
+	"github.com/dennistsiang/azunyan/manager"
 	"github.com/gin-gonic/gin"
 )
 
