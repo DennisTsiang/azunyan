@@ -172,11 +172,26 @@ func GetSongsByTextSearch(env databaseConfig, text string) ([]models.Song, error
 	collection := getCollection(env)
 	ctx, cancel := context.WithTimeout(context.Background(), 8*time.Second)
 	defer cancel()
-	cursor, err := collection.Find(ctx, bson.M{"$text": bson.M{"$search": text}})
+	searchPipeline := []bson.M{
+		bson.M{
+			"$search": bson.M{
+				"index": "title_text_artist_text",
+				"text": bson.M{
+					"path":  []string{"title", "artist"},
+					"query": text,
+					"fuzzy": bson.M{
+						"maxEdits": 2,
+					},
+				},
+			},
+		},
+	}
+	cursor, err := collection.Aggregate(ctx, searchPipeline)
 	if err != nil {
 		env.GetLog().Printf("Failed to search database for songs for reason '%s'", err)
 		return nil, err
 	}
+
 	songs, err := resultsToSongsArray(cursor)
 	if err != nil {
 		env.GetLog().Printf("Failure whilst converting results to an array: %v", err)
